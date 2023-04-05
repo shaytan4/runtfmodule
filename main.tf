@@ -22,7 +22,6 @@ provider "gitlab" {
 
 # Setup and configure our module
 module "gitlab_group_project" {
-  #source = "../modules/gitlab-group-project"
   source = "git::https://github.com/shaytan4/gitlab-group-project.git?ref=v1.0.0"
 
   group_name = "TF_LESSON220"
