@@ -16,3 +16,15 @@ variable "gitlab_token" {
   default     = "glpat-nHbxJ1L5zMPmyexYbTgg"
   sensitive   = true
 }
+
+variable "group_name" {
+  description = "Gitlab group name"
+  type        = string
+  default     = "TF_LESSON222222"
+}
+
+variable "proj_name" {
+  description = "Gitlab project name"
+  type        = string
+  default     = "TF_PROJ102222222"
+}
